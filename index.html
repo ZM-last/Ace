@@ -1,13 +1,40 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MANN IM MOND</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>导航页面示例</title>
 </head>
+
 <body>
-    <h1>欢迎访问我的网站</h1>
-    <p>这是一个简单的HTML页面示例。</p>
+    <div class="sidebar">
+        <h2>迷梦工坊</h2>
+        <ul class="nav-list">
+            <li><a href="#">Lua教程</a></li>
+            <li><a href="#">使用帮助</a></li>
+            <li>
+                <a href="#">学习笔记</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">开发教程</a>
+                <div class="dropdown-content">
+                    <a href="#">UI编辑器</a>
+                    <a href="#">开发教程</a>
+                    <a href="#">插件</a>
+                    <a href="#">游戏技巧</a>
+                    <a href="#">综合案例</a>
+                    <a href="#">脚本</a>
+                </div>
+            </li>
+            <li><a href="#">更新日志</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <!-- 这里放置主要内容区域 -->
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
